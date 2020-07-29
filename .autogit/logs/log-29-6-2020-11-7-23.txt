@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 11:07:23 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Prefabs/MetalCube 1.prefab"
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* "Assets/Audio/2D MUSIC LOOP.aac"
+* "Assets/Audio/2D MUSIC LOOP.aac.meta"
+* Assets/Scripts/CubeCollectible.cs
+* Assets/Scripts/CubeCollectible.cs.meta
+
+
+Deleted files:
+* "Assets/Audio/2D MUSIC LOOP.ogg"
+* "Assets/Audio/2D MUSIC LOOP.ogg.meta"
+
+
+Renamed files:
