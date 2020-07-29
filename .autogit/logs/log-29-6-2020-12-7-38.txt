@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 12:07:38 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Prefabs/MetalCube 1.prefab"
+* Assets/Scripts/CubeCollectible.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-11-37-30.txt
+
+
+Deleted files:
+
+
+Renamed files:

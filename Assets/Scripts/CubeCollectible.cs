@@ -25,13 +25,11 @@ public class CubeCollectible : MonoBehaviour
     public void randomCollectible(){
         if(RubyController.currentHealth < RubyController.ammo){
             Instantiate(healthPrefab, cubePrefab.transform.position, Quaternion.identity);
-            Debug.Log("You are in the if statement");
+            Destroy(gameObject);
         }
         else{
             Instantiate(ammoPrefab, cubePrefab.transform.position, Quaternion.identity);
-            Debug.Log("You are in the else statement");
-            Debug.Log(RubyController.currentHealth);
-            Debug.Log(RubyController.ammo);
+            Destroy(gameObject);
         }
         
     }
