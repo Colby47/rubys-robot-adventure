@@ -31,6 +31,8 @@ public class RubyController : MonoBehaviour
 
     public Text ammoText;
 
+    AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +44,8 @@ public class RubyController : MonoBehaviour
         currentHealth = maxHealth;
 
         ammoText.text = "Cogs: " + ammo.ToString();
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -149,6 +153,11 @@ public class RubyController : MonoBehaviour
     }
     public void setAmmoText(){
         ammoText.text = "Cogs: " + ammo.ToString();
+    }
+
+    public void PlaySound(AudioClip healthAudio)
+    {
+        audioSource.PlayOneShot(healthAudio);
     }
 
 
