@@ -10,7 +10,7 @@ public class RubyController : MonoBehaviour
 
     public int maxHealth = 5;
     public int health { get { return currentHealth; }}
-    int currentHealth;
+    public static int currentHealth;
 
     Rigidbody2D rigidbody2d;
     float horizontal;
@@ -27,7 +27,7 @@ public class RubyController : MonoBehaviour
     public GameObject healthEffect;
     public GameObject damageEffect;
 
-    public int ammo;
+    public static int ammo;
 
     public Text ammoText;
 

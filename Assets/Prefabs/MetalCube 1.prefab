@@ -121,3 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c64dbf5bcb00643b99c388c2f21a4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthPrefab: {fileID: 9170749255054515367, guid: 9a2f353526916174a8207257490538de,
+    type: 3}
+  ammoPrefab: {fileID: 4299129722931224224, guid: ae3cc0fa61967394192b3ee7a3c880cf,
+    type: 3}
+  cubePrefab: {fileID: 5099388012271787777}
+  ruby: {fileID: 8504922172012132155, guid: 20a1ab3b03d15104c882b84f36f8bc45, type: 3}
