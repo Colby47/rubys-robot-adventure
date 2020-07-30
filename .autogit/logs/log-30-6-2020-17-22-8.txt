@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 17:22:08 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Scenes/MainScene.unity
+* Assets/Scenes/SecondaryScene.unity
+* Assets/Scripts/NonPlayerCharacter.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-16-52-2.txt
+* Assets/Scripts/BambiCollectable.cs
+* Assets/Scripts/BambiCollectable.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

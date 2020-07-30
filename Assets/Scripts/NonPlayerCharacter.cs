@@ -11,7 +11,9 @@ public class NonPlayerCharacter : MonoBehaviour
     float timerDisplay;
     float timerChangeLevel;
     public static bool hasFrog = false;
-    int whichScene = 0;
+    public static int whichScene = 0;
+
+    public AudioClip winAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -66,11 +68,13 @@ public class NonPlayerCharacter : MonoBehaviour
         }
 
         else{
-            if (EnemyController.fixedBots == 4 && hasFrog == true)
+            if ((EnemyController.fixedBots == 4) && (hasFrog == true))
             {
                 timerDisplay = displayTime;
                 timerChangeLevel = displayTime;
                 dialogBoxFinished.SetActive(true);
+                GameObject.Find("Ruby").GetComponent<RubyController>().PlaySound(winAudio);
+
             }
             else
             {
