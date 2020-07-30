@@ -26,6 +26,8 @@ public class ThrowerEnemyScript : MonoBehaviour
 
     Vector2 lookDirection = new Vector2(1,0);
 
+    public static int throwerEnemyHealth = 2;
+
     
     // Start is called before the first frame update
     void Start()
@@ -46,9 +48,10 @@ public class ThrowerEnemyScript : MonoBehaviour
 
         if (timer < 0)
         {
+            Launch();
             direction = -direction;
             timer = changeTime;
-            Launch();
+            
             
         }
     }
@@ -105,6 +108,8 @@ public class ThrowerEnemyScript : MonoBehaviour
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2D.position + Vector2.up * 0.5f, Quaternion.identity);
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
+
+
 
     }
 

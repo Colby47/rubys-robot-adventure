@@ -37,14 +37,30 @@ public class Projectile : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other){
         EnemyController e = other.collider.GetComponent<EnemyController>();
         FastEnemyController f = other.collider.GetComponent<FastEnemyController>();
+        ThrowerEnemyScript t = other.collider.GetComponent<ThrowerEnemyScript>();
+        RubyController r = other.collider.GetComponent<RubyController>();
         if (e != null)
         {
             e.Fix();
-            
         }
+
         if(f != null){
             f.Fix();
         }
+
+        if(t != null){
+            ThrowerEnemyScript.throwerEnemyHealth -= 1;
+
+            if(ThrowerEnemyScript.throwerEnemyHealth <= 0){
+            t.Fix();
+            }
+        }
+
+        if(r != null){
+            r.ChangeHealth(-1);
+        }
+        
+        
         
         
         Destroy(gameObject);
