@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CogCollectible : MonoBehaviour
 {
+    public AudioClip cogCollectedAudio;
     void OnTriggerEnter2D(Collider2D other)
    {
         RubyController controller = other.GetComponent<RubyController>();
@@ -13,7 +14,9 @@ public class CogCollectible : MonoBehaviour
             controller.increaseAmmo();
             controller.setAmmoText();
             Destroy(gameObject);
-            
+
+            controller.PlaySound(cogCollectedAudio);
+                        
         }
     }
 }

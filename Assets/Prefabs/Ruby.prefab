@@ -108,6 +108,7 @@ MonoBehaviour:
   damageEffect: {fileID: 6158344838230266826, guid: fed00b92b3a28ed4eaa7e6a4229acd31,
     type: 3}
   ammoText: {fileID: 0}
+  rubyTakesDamage: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
 --- !u!50 &6992224334962591679
 Rigidbody2D:
   serializedVersion: 4

@@ -32,6 +32,8 @@ public class RubyController : MonoBehaviour
     public Text ammoText;
 
     AudioSource audioSource;
+    
+    public AudioClip rubyTakesDamage;
 
 
     // Start is called before the first frame update
@@ -119,6 +121,7 @@ public class RubyController : MonoBehaviour
             Instantiate(damageEffect, rigidbody2d.position, Quaternion.identity);
             isInvincible = true;
             invincibleTimer = timeInvincible;
+            audioSource.PlayOneShot(rubyTakesDamage);
         }
         else{
             Instantiate(healthEffect, rigidbody2d.position, Quaternion.identity);
@@ -159,6 +162,8 @@ public class RubyController : MonoBehaviour
     {
         audioSource.PlayOneShot(healthAudio);
     }
+
+
 
 
 }

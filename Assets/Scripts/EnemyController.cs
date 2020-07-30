@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
 
     public ParticleSystem smokeEffect;
 
-
+    AudioSource audioSource;
 
 
     
@@ -31,6 +31,7 @@ public class EnemyController : MonoBehaviour
         animator = GetComponent<Animator>();
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + fixedBots + " / 4"; 
 
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -90,12 +91,8 @@ public class EnemyController : MonoBehaviour
         smokeEffect.Stop();
         fixedBots ++;
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + fixedBots + " / 4";
-        // Get the game object you want to change
-        // Get the component on that object
-        // Modify the componen script
 
-        // Track the value in one place. A static variable. 
-        
+        Destroy(audioSource);
     }
 
 
