@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 706613148210442407}
   - component: {fileID: 333686973121088543}
   - component: {fileID: 2797575588772652133}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Fast Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,6 +169,7 @@ MonoBehaviour:
   changeTime: 1
   smokeEffect: {fileID: 1721110436878939940, guid: c1855e0a3e99a2245959a8e434401390,
     type: 3}
+  fixRobotAudio: {fileID: 8300000, guid: e7fa1971a86d60945bb64585c0ac14d5, type: 3}
 --- !u!82 &2797575588772652133
 AudioSource:
   m_ObjectHideFlags: 0
@@ -276,6 +277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443532167054034725, guid: c1855e0a3e99a2245959a8e434401390,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2885231838287062521, guid: c1855e0a3e99a2245959a8e434401390,
         type: 3}

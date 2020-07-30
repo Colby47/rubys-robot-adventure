@@ -18,9 +18,7 @@ public class FastEnemyController : MonoBehaviour
 
     public ParticleSystem smokeEffect;
 
-
-
-
+    public AudioClip fixRobotAudio;
 
     
     // Start is called before the first frame update
@@ -90,11 +88,8 @@ public class FastEnemyController : MonoBehaviour
         smokeEffect.Stop();
         EnemyController.fixedBots ++;
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + EnemyController.fixedBots + " / 4";
-        // Get the game object you want to change
-        // Get the component on that object
-        // Modify the componen script
 
-        // Track the value in one place. A static variable. 
+        GameObject.Find("Ruby").GetComponent<RubyController>().PlaySound(fixRobotAudio);
         
     }
 

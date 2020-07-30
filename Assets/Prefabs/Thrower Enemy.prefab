@@ -282,6 +282,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Smoking Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 2443532167054034725, guid: c1855e0a3e99a2245959a8e434401390,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 2885231838287062521, guid: c1855e0a3e99a2245959a8e434401390,
         type: 3}
       propertyPath: m_LocalPosition.x
