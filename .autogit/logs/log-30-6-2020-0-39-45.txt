@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 00:39:45 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/Enemy.prefab
+* Assets/Scripts/EnemyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-0-9-39.txt
+
+
+Deleted files:
+
+
+Renamed files:
