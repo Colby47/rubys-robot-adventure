@@ -10,6 +10,8 @@ public class NonPlayerCharacter : MonoBehaviour
     public GameObject dialogBoxFinished;
     float timerDisplay;
     float timerChangeLevel;
+    public static bool hasFrog = false;
+    int whichScene = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,8 @@ public class NonPlayerCharacter : MonoBehaviour
             if(timerChangeLevel < 0){
                 SceneManager.LoadScene("SecondaryScene");
                 EnemyController.fixedBots = 0;
+                whichScene = 1;
+                ThrowerEnemyScript.throwerEnemyHealth = 2;
             }
         }
 
@@ -46,18 +50,33 @@ public class NonPlayerCharacter : MonoBehaviour
     }
     public void DisplayDialog()
     {
-        if(EnemyController.fixedBots != 4){
+        if(whichScene == 0){
+            if(EnemyController.fixedBots != 4){
             timerDisplay = displayTime;
             //Debug.Log(EnemyController.botsFixed);
             dialogBox.SetActive(true);
+            }
+        
+            else {
+                timerDisplay = displayTime;
+                timerChangeLevel = displayTime;
+
+                dialogBoxFinished.SetActive(true);
+            }
         }
 
-        else {
-            timerDisplay = displayTime;
-            timerChangeLevel = displayTime;
-
-            dialogBoxFinished.SetActive(true);
-
+        else{
+            if (EnemyController.fixedBots == 4 && hasFrog == true)
+            {
+                timerDisplay = displayTime;
+                timerChangeLevel = displayTime;
+                dialogBoxFinished.SetActive(true);
+            }
+            else
+            {
+                timerDisplay = displayTime;
+                dialogBox.SetActive(true);
+            }
         }
     }
 }

@@ -131,7 +131,9 @@ public class RubyController : MonoBehaviour
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
 
         if (currentHealth == 0){
-            SceneManager.LoadScene("MainScene");
+            if(NonPlayerCharacter.whichScene == 0){
+            SceneManager.LoadScene("MainScene");}
+            else{SceneManager.LoadScene("SecondaryScene");}
         }
         
     }
