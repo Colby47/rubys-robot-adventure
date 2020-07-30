@@ -1,0 +1,26 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 13:21:04 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Prefabs/Fast Enemy.prefab"
+* Assets/Scenes/MainScene.unity
+* Assets/Scenes/SecondaryScene.unity
+* ProjectSettings/Physics2DSettings.asset
+* ProjectSettings/TagManager.asset
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-0-39-45.txt
+* Assets/Prefabs/EnemyCogBullet.prefab
+* Assets/Prefabs/EnemyCogBullet.prefab.meta
+* "Assets/Prefabs/Thrower Enemy.prefab"
+* "Assets/Prefabs/Thrower Enemy.prefab.meta"
+* Assets/Scripts/ThrowerEnemyScript.cs
+* Assets/Scripts/ThrowerEnemyScript.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:
