@@ -18,6 +18,8 @@ public class FastEnemyController : MonoBehaviour
 
     public ParticleSystem smokeEffect;
 
+    AudioSource audioSource;
+
     public AudioClip fixRobotAudio;
 
     
@@ -28,7 +30,7 @@ public class FastEnemyController : MonoBehaviour
         timer = changeTime;
         animator = GetComponent<Animator>();
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + EnemyController.fixedBots + " / 4"; 
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -90,6 +92,8 @@ public class FastEnemyController : MonoBehaviour
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + EnemyController.fixedBots + " / 4";
 
         GameObject.Find("Ruby").GetComponent<RubyController>().PlaySound(fixRobotAudio);
+
+        Destroy(audioSource);
         
     }
 
