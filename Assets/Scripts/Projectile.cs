@@ -50,6 +50,9 @@ public class Projectile : MonoBehaviour
 
         if(t != null){
             ThrowerEnemyScript.throwerEnemyHealth -= 1;
+            if(ThrowerEnemyScript.throwerEnemyHealth >= 1){
+                t.PlaySound();
+            }
 
             if(ThrowerEnemyScript.throwerEnemyHealth <= 0){
             t.Fix();
@@ -59,9 +62,6 @@ public class Projectile : MonoBehaviour
         if(r != null){
             r.ChangeHealth(-1);
         }
-        
-        
-        
         
         Destroy(gameObject);
     }

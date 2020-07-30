@@ -28,6 +28,8 @@ public class ThrowerEnemyScript : MonoBehaviour
 
     public static int throwerEnemyHealth = 2;
 
+    public AudioClip throwerTakesDamage;
+
     
     // Start is called before the first frame update
     void Start()
@@ -48,10 +50,9 @@ public class ThrowerEnemyScript : MonoBehaviour
 
         if (timer < 0)
         {
-            Launch();
             direction = -direction;
             timer = changeTime;
-            
+            Launch();
             
         }
     }
@@ -101,17 +102,16 @@ public class ThrowerEnemyScript : MonoBehaviour
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + EnemyController.fixedBots + " / 4";
 
         GameObject.Find("Ruby").GetComponent<RubyController>().PlaySound(fixRobotAudio);
-
         Destroy(audioSource);
     }
     void Launch(){
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2D.position + Vector2.up * 0.5f, Quaternion.identity);
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
-
-
-
     }
 
+    public void PlaySound(){
+        audioSource.PlayOneShot(throwerTakesDamage);
+    }
 
 }
