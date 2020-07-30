@@ -21,6 +21,7 @@ public class EnemyController : MonoBehaviour
 
     AudioSource audioSource;
 
+    public AudioClip fixRobotAudio;
 
     
     // Start is called before the first frame update
@@ -91,6 +92,8 @@ public class EnemyController : MonoBehaviour
         smokeEffect.Stop();
         fixedBots ++;
         GameObject.Find("Robots Fixed").GetComponent<Text>().text = "Bots Fixed: " + fixedBots + " / 4";
+
+        GameObject.Find("Ruby").GetComponent<RubyController>().PlaySound(fixRobotAudio);
 
         Destroy(audioSource);
     }

@@ -1,0 +1,30 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 00:09:39 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/CollectibleAmmo.prefab
+* Assets/Prefabs/Enemy.prefab
+* Assets/Prefabs/Ruby.prefab
+* Assets/Scenes/MainScene.unity
+* Assets/Scripts/CogCollectible.cs
+* Assets/Scripts/EnemyController.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-14-8-12.txt
+* "Assets/Audio/Cog Pickup.wav"
+* "Assets/Audio/Cog Pickup.wav.meta"
+* "Assets/Audio/Enemy Throw Cog.wav"
+* "Assets/Audio/Enemy Throw Cog.wav.meta"
+* "Assets/Audio/Robot Dance.wav"
+* "Assets/Audio/Robot Dance.wav.meta"
+* "Assets/Audio/Thrower Enemy Type Loop.wav"
+* "Assets/Audio/Thrower Enemy Type Loop.wav.meta"
+
+
+Deleted files:
+
+
+Renamed files:

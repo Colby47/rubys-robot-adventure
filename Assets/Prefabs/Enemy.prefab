@@ -151,6 +151,7 @@ MonoBehaviour:
   changeTime: 3
   smokeEffect: {fileID: 1721110436878939940, guid: c1855e0a3e99a2245959a8e434401390,
     type: 3}
+  fixRobotAudio: {fileID: 8300000, guid: e7fa1971a86d60945bb64585c0ac14d5, type: 3}
 --- !u!95 &4049311505260600814
 Animator:
   serializedVersion: 3
