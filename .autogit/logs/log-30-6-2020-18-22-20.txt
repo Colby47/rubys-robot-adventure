@@ -1,0 +1,64 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 18:22:20 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Art/Tiles/Game Palette.prefab"
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-17-52-14.txt
+* "Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png"
+* "Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png"
+* "Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png"
+* "Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png.meta"
+* "Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png"
+* "Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png.meta"
+
+
+Deleted files:
+* Assets/Sunnyland/artwork/Sprites/Enemies/eagle/eagle-attack-1.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/eagle/eagle-attack-1.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/eagle/eagle-attack-2.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/eagle/eagle-attack-3.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/eagle/eagle-attack-4.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/eagle/eagle-attack-4.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-1.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-1.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-2.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-2.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-3.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-3.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-4.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-4.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-5.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-5.png.meta
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-6.png
+* Assets/Sunnyland/artwork/Sprites/Enemies/opossum/opossum-6.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/crouch.meta
+* Assets/Sunnyland/artwork/Sprites/player/crouch/player-crouch-1.png
+* Assets/Sunnyland/artwork/Sprites/player/crouch/player-crouch-1.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/crouch/player-crouch-2.png
+* Assets/Sunnyland/artwork/Sprites/player/crouch/player-crouch-2.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/hurt.meta
+* Assets/Sunnyland/artwork/Sprites/player/hurt/player-hurt-1.png
+* Assets/Sunnyland/artwork/Sprites/player/hurt/player-hurt-1.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/hurt/player-hurt-2.png
+* Assets/Sunnyland/artwork/Sprites/player/hurt/player-hurt-2.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/idle.meta
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-2.png
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-2.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-3.png
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-3.png.meta
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-4.png
+* Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-4.png.meta
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
