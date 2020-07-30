@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 15:21:45 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-14-51-37.txt
+* Assets/Art/Sprites/Characters/FrogSpriteSheet.png
+* Assets/Art/Sprites/Characters/FrogSpriteSheet.png.meta
+
+
+Deleted files:
+
+
+Renamed files:
